@@ -1,6 +1,6 @@
 # 陈子恒
 
-151-3734-2002 | xigua050205@163.com | GitHub: github.com/moncia-025 | 期望城市：不限 | 到岗：随时
+151-3734-2002 | xigua050205@163.com | GitHub: github.com/moncia-25 | 期望城市：不限 | 到岗：随时
 
 ## 求职意向
 
@@ -9,7 +9,7 @@
 ## 教育背景
 
 新乡工程学院 | 计算机科学与技术 | 本科在读 | 2023.09 - 2027.06（预计）  
-GPA：3.6/4.0 | 荣誉：国家励志奖学金  
+GPA：3.6/4.0 | 英语四级 | 荣誉：国家励志奖学金  
 相关课程：软件工程、数据库系统、计算机网络、Web 开发技术、数据结构与算法
 
 ## 岗位匹配优势
@@ -32,7 +32,7 @@ GPA：3.6/4.0 | 荣誉：国家励志奖学金
 ### TrendScout AI | 跨境电商趋势分析与选品辅助系统 | 2026.06
 
 Demo: https://trendscout-ai-pied.vercel.app  
-GitHub: https://github.com/moncia-025/trendscout-ai
+GitHub: https://github.com/moncia-25/trendscout-ai
 
 - 围绕跨境电商卖家“选品依赖经验、趋势判断缺少量化标准、进入时机滞后”的问题，梳理趋势识别、趋势预测、AI 分析、选品建议、风险提示 5 个核心流程。
 - 设计 Trend Score 评分模型，将趋势价值拆解为增长速度、社交热度、市场扩散度、生命周期阶段 4 个维度，用于趋势排序和选品优先级判断。
@@ -43,7 +43,7 @@ GitHub: https://github.com/moncia-025/trendscout-ai
 ### AI 心理健康助手 | 对话式 AI Demo | 2026.02
 
 Demo: https://polite-caramel-c21af4.netlify.app  
-GitHub: https://github.com/monica-025/Ai-mental-health-assistant
+GitHub: https://github.com/moncia-25/Ai-mental-health-assistant
 
 - 梳理 AI 对话产品的会话创建、历史切换、消息展示、加载状态、错误提示和异常处理流程，提升用户对系统状态的感知。
 - 基于 SSE 实现流式对话展示，减少等待过程中的不确定感，并对输入状态、响应状态和失败重试进行基础交互设计。
