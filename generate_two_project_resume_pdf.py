@@ -27,9 +27,9 @@ def bullet(text, style):
 
 def section(title, styles):
     return [
-        Spacer(1, 3),
+        Spacer(1, 4),
         Paragraph(title, styles["section"]),
-        HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#2F5597"), spaceBefore=1, spaceAfter=3),
+        HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#2F5597"), spaceBefore=1.5, spaceAfter=4),
     ]
 
 
@@ -51,7 +51,7 @@ def main():
             parent=base["Normal"],
             fontName="WQY-Bold",
             fontSize=16.5,
-            leading=19,
+            leading=20,
             alignment=TA_LEFT,
             textColor=colors.HexColor("#111111"),
             spaceAfter=1,
@@ -61,16 +61,16 @@ def main():
             parent=base["Normal"],
             fontName="WQY",
             fontSize=7.9,
-            leading=9.4,
+            leading=9.8,
             textColor=colors.HexColor("#333333"),
-            spaceAfter=1.2,
+            spaceAfter=1.6,
         ),
         "section": ParagraphStyle(
             "section",
             parent=base["Normal"],
             fontName="WQY-Bold",
             fontSize=10.3,
-            leading=11.5,
+            leading=12,
             textColor=colors.HexColor("#2F5597"),
             spaceBefore=1,
             spaceAfter=0,
@@ -80,39 +80,39 @@ def main():
             parent=base["Normal"],
             fontName="WQY",
             fontSize=7.75,
-            leading=9.1,
+            leading=9.5,
             textColor=colors.HexColor("#202020"),
-            spaceAfter=1,
+            spaceAfter=1.4,
         ),
         "small": ParagraphStyle(
             "small",
             parent=base["Normal"],
             fontName="WQY",
             fontSize=7.35,
-            leading=8.65,
+            leading=9.05,
             textColor=colors.HexColor("#202020"),
-            spaceAfter=0.8,
+            spaceAfter=1.0,
         ),
         "project_title": ParagraphStyle(
             "project_title",
             parent=base["Normal"],
             fontName="WQY-Bold",
             fontSize=8.75,
-            leading=10.0,
+            leading=10.4,
             textColor=colors.HexColor("#111111"),
-            spaceBefore=1,
-            spaceAfter=0.8,
+            spaceBefore=1.4,
+            spaceAfter=1.2,
         ),
         "bullet": ParagraphStyle(
             "bullet",
             parent=base["Normal"],
             fontName="WQY",
             fontSize=7.18,
-            leading=8.45,
+            leading=8.85,
             leftIndent=7,
             firstLineIndent=-6,
             textColor=colors.HexColor("#202020"),
-            spaceAfter=0.45,
+            spaceAfter=0.8,
         ),
     }
 
@@ -151,7 +151,7 @@ def main():
         )
     )
 
-    story.append(Spacer(1, 1.2))
+    story.append(Spacer(1, 2.0))
     story.append(
         KeepTogether(
             [
